@@ -32,12 +32,34 @@
         justify-content: center;
     
     }
+
+    .progress-empty-dots {
+        position: relative;
+        
+    }
+
+    .progress-filled-dots {
+        position: absolute;
+    }
 </style>
 <body>
 
     <div class="progress-bar">
         <div class="progress-bar-value">65%</div>
         <div class="progress-bar-fill"></div>
+    </div>
+
+
+    <div class="progress">
+        <div class="progress-empty-dots">
+            <img src="https://s2.svgbox.net/octicons.svg?ic=dot-bold&color=ff0000" width="15" height="32">
+            <img src="https://s2.svgbox.net/octicons.svg?ic=dot-bold&color=ff0000" width="15" height="32">
+        </div>
+
+        <div class="progress-filled-dots">
+            <img src="https://s2.svgbox.net/octicons.svg?ic=dot-fill-bold&color=ff0000" width="15" height="32">
+        </div>
+
     </div>
     
 </body>
